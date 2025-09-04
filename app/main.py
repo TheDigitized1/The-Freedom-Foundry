@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(page_title="Freedom Foundry", page_icon="🛠️", layout="centered")
+st.title("🛠️ The Freedom Foundry")
+st.write("If you're seeing this, the app is working!")
+
+
 # --- Page Config ---
 st.set_page_config(
     page_title="The Freedom Foundry",
@@ -45,7 +50,7 @@ for name, desc in projects.items():
 st.markdown("---")
 st.markdown("> “You’re not just building a dashboard. You’re composing a symphony of self-awareness.”")
 
-import modules.resonance_tracker as rt
+#import modules.resonance_tracker as rt
 
 st.markdown("---")
 st.markdown("### 🔗 Modules")
