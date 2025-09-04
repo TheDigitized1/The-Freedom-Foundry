@@ -52,9 +52,9 @@ Add minimal UI block to test Streamlit rendering
 st.markdown("---")
 st.markdown("> “You’re not just building a dashboard. You’re composing a symphony of self-awareness.”")
 
-#import modules.resonance_tracker as rt
+# import modules.resonance_tracker as rt
 
 st.markdown("---")
 st.markdown("### 🔗 Modules")
-if st.button("Open Resonance Tracker"):
+# if st.button("Open Resonance Tracker"):
     rt
