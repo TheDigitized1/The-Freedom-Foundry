@@ -46,6 +46,8 @@ projects = {
 for name, desc in projects.items():
     st.markdown(f"**{name}** — {desc}")
 
+Add minimal UI block to test Streamlit rendering
+
 # --- Footer Quote ---
 st.markdown("---")
 st.markdown("> “You’re not just building a dashboard. You’re composing a symphony of self-awareness.”")
